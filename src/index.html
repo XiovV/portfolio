@@ -13,36 +13,44 @@
     <title>Damir</title>
   </head>
   <body class="bg-[#030712] font-heebo">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 lg:0 pt-5">
       <!-- HERO SECTION -->
-      <div>
-        <div class="w-2/3 mx-auto pt-7">
+      <div class="lg:flex flex-row-reverse justify-between lg:pt-7">
+        <div class="w-2/3 mx-auto lg:mx-0 lg:w-auto pt-7 lg:pt-3 lg:max-w-sm">
           <img src="./assets/gopher.svg" alt="Image of a gopher" />
         </div>
 
-        <div class="pt-5 text-white text-center">
-          <h1 class="text-3xl font-bold">
-            Hi, I'm <span class="text-[#1B76FF]">Damir</span>!
-          </h1>
-          <h1 class="text-3xl pt-2 font-bold">A Full-Stack Developer...</h1>
-          <p class="pt-3">
-            ... with 3+ years of experience developing, deploying and
-            maintaining stable and fast-performing backend services, with a
-            clear understanding of modern technologies and development
-            practices.
-          </p>
-        </div>
-
-        <div class="text-center text-white pt-8">
-          <div class="bg-[#1B76FF] inline-block px-10 py-3 rounded-md">
-            <h1 class="font-medium text-xl">View Resume</h1>
+        <div>
+          <div
+            class="pt-5 text-white text-center lg:text-left max-w-2xl mx-auto"
+          >
+            <h1 class="text-3xl lg:text-5xl font-bold">
+              Hi, I'm <span class="text-[#1B76FF]">Damir</span>!
+            </h1>
+            <h1 class="text-3xl lg:text-5xl pt-2 font-bold">
+              A Full-Stack Developer...
+            </h1>
+            <p class="pt-3 lg:pt-7">
+              ... with 3+ years of experience developing, deploying and
+              maintaining stable and fast-performing backend services, with a
+              clear understanding of modern technologies and development
+              practices.
+            </p>
           </div>
-        </div>
 
-        <div class="flex mx-12 pt-8 justify-center gap-6">
-          <img src="./assets/linkedin.svg" alt="" />
-          <img src="./assets/github.svg" alt="" />
-          <img src="./assets/email.svg" alt="" />
+          <div class="lg:flex">
+            <div class="text-center text-white pt-8">
+              <div class="bg-[#1B76FF] inline-block px-10 py-3 rounded-md">
+                <h1 class="font-medium text-xl">View Resume</h1>
+              </div>
+            </div>
+
+            <div class="flex mx-12 pt-8 justify-center gap-6">
+              <img src="./assets/linkedin.svg" alt="" />
+              <img src="./assets/github.svg" alt="" />
+              <img src="./assets/email.svg" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
