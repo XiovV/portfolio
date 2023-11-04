@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* using custom classes because tailwind does not want to apply a hover effect for some reason */
+.resume-btn:hover {
+  background-color: #155ecc;
+}
