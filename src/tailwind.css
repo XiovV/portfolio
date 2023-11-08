@@ -1034,16 +1034,12 @@ html {
   max-width: 42rem;
 }
 
-.max-w-xl {
-  max-width: 36rem;
-}
-
-.max-w-md {
-  max-width: 28rem;
-}
-
 .max-w-lg {
   max-width: 32rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
 }
 
 .grid-cols-3 {
@@ -1088,10 +1084,6 @@ html {
 
 .gap-y-10 {
   row-gap: 2.5rem;
-}
-
-.gap-y-1 {
-  row-gap: 0.25rem;
 }
 
 .rounded-full {
@@ -1253,34 +1245,12 @@ html {
 }
 
 @media (min-width: 768px) {
-  .md\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
-
-  .md\:mx-80 {
-    margin-left: 20rem;
-    margin-right: 20rem;
-  }
-
-  .md\:hidden {
-    display: none;
-  }
-
-  .md\:max-w-3xl {
-    max-width: 48rem;
-  }
-
   .md\:max-w-2xl {
     max-width: 42rem;
   }
 
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 
@@ -1314,12 +1284,16 @@ html {
     max-width: 24rem;
   }
 
-  .lg\:max-w-3xl {
-    max-width: 48rem;
-  }
-
   .lg\:grid-cols-8 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
   }
 
   .lg\:gap-10 {
