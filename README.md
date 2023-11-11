@@ -1,3 +1,25 @@
-# Preview of the new portfolio design
+# Preview
 
-<p align="center"><img src="https://raw.githubusercontent.com/XiovV/portfolio/master/new-design.png" width=700 alt="Screenshot of Example Documentation created with Slate"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/XiovV/portfolio/master/preview.png" alt="Screenshot of the portfolio"></p>
+
+# Deployment
+## Clone the repository
+```
+git clone https://github.com/XiovV/portfolio.git
+```
+
+## Build
+```
+npm run build
+```
+
+# Development
+## Clone the repository
+```
+git clone https://github.com/XiovV/portfolio.git
+```
+
+## Dev
+```
+npm run dev
+```
